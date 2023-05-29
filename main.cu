@@ -3,9 +3,11 @@
 
 // Import required libraries
 #include <vector>
+#include <fstream>
 #include <algorithm>
 #include "cifar10_reader.cuh" // Import a custom header file
 #include "matrix.cuh" // Import a custom header file
+
 
 // Define some constants and variables
 int training_examples = 50000;
@@ -365,6 +367,11 @@ void backward_propagation() {
 
 //Function to train the model with given number of passes and option to print loss
 void train_model(int nb_of_pass, bool printLoss) {
+    std::ofstream file1;
+    std::ofstream file2;
+    file1.open("./statistics_train.csv", std::ios::app);
+    file2.open("./statistics_test.csv", std::ios::app);
+    
     int i;
     //Loop through all the passes
     for (i = 0; i <= nb_of_pass; i++) {
@@ -409,8 +416,15 @@ void train_model(int nb_of_pass, bool printLoss) {
             struct tm *p;
             time_t t = time(0);
             p = localtime(&t);
+                 // write header if file is empty
+           std::ifstream ifile("./statistics_test.csv");
+           if (ifile.peek() == std::ifstream::traits_type::eof()) {
+             file2 <<"iter,test_acc"<< std::endl;
+           }
+           file2 <<i <<","<< accuracy*100<< std::endl;
             //Print testing accuracy
             printf("%02d:%02d:%02d The testing accuracy after iteration %d is: %.2lf%%\n", p->tm_hour, p->tm_min, p->tm_sec, i, accuracy * 100);
+
         }
 
         //After completing a full test set, output the train loss
@@ -421,6 +435,11 @@ void train_model(int nb_of_pass, bool printLoss) {
             struct tm *p;
             time_t t = time(0);
             p = localtime(&t);
+            std::ifstream ifile("./statistics_train.csv");
+            if (ifile.peek() == std::ifstream::traits_type::eof()) {
+             file1 <<"iter,train_acc"<< std::endl;
+            }
+            file1 <<i<<","<<accuracy*100<< std::endl;
             //Print train loss
             printf("\n%02d:%02d:%02d The train accuracy after iteration %d is: %.2lf%%\n\n", p->tm_hour, p->tm_min, p->tm_sec, i, accuracy * 100);
             //Reset loss value for next epoch
