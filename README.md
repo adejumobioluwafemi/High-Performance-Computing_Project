@@ -13,9 +13,13 @@ Koffivi F. Gbagbe & Oluwafemi P. Adejumobi
 
 ### Files structure and description
 > statistics_test.csv contains cuda test accuracy per epoch
+
 > statistics_train.csv  contains cuda train accuracy per epoch
+
 > cuda_output.txt is the output of the cuda model
+
 > pytorch_output.txt is the output of the pytorch model
+
 > Run_Output.png terminal sceenshot of the execution time of the two model
  (the first one is the cuda version and the second one is the pytorch version)
 
