@@ -12,6 +12,9 @@ Koffivi F. Gbagbe & Oluwafemi P. Adejumobi
 3. Run the run.sh file  to mesure execution time 
 
 ### Files structure and description
+
+![Alt text](https://github.com/YodaX369/HPC_Project_2023_Skt/blob/main/file_stucture.png?raw=true)
+
 > statistics_test.csv contains cuda test accuracy per epoch
 
 > statistics_train.csv  contains cuda train accuracy per epoch
