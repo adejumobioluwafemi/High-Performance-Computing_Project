@@ -1,0 +1,76 @@
+(50000, 3072) (50000, 1)
+(10000, 3072) (10000, 1)
+input dim: 3072
+fc: 3072 -> 2048
+fc: 2048 -> 1024
+fc: 1024 -> 512
+fc: 512 -> 10
+02:07:51 The testing accuracy after iteration 0 is: 9.64%
+02:07:54 The testing accuracy after iteration 100 is: 29.30%
+02:07:57 The testing accuracy after iteration 200 is: 32.88%
+02:08:00 The testing accuracy after iteration 300 is: 35.53%
+02:08:02 The testing accuracy after iteration 400 is: 36.99%
+02:08:05 The testing accuracy after iteration 500 is: 39.45%
+02:08:08 The testing accuracy after iteration 600 is: 39.26%
+02:08:11 The testing accuracy after iteration 700 is: 40.16%
+
+02:08:13 The train accuracy after iteration 781 is: 46.42%
+
+02:08:14 The testing accuracy after iteration 800 is: 37.43%
+02:08:17 The testing accuracy after iteration 900 is: 36.50%
+02:08:20 The testing accuracy after iteration 1000 is: 40.98%
+02:08:23 The testing accuracy after iteration 1100 is: 41.16%
+02:08:25 The testing accuracy after iteration 1200 is: 42.04%
+02:08:28 The testing accuracy after iteration 1300 is: 42.60%
+02:08:31 The testing accuracy after iteration 1400 is: 42.67%
+02:08:34 The testing accuracy after iteration 1500 is: 43.84%
+
+02:08:36 The train accuracy after iteration 1562 is: 53.15%
+
+02:08:37 The testing accuracy after iteration 1600 is: 43.44%
+02:08:40 The testing accuracy after iteration 1700 is: 44.19%
+02:08:43 The testing accuracy after iteration 1800 is: 43.64%
+02:08:46 The testing accuracy after iteration 1900 is: 44.27%
+02:08:49 The testing accuracy after iteration 2000 is: 45.43%
+02:08:51 The testing accuracy after iteration 2100 is: 45.11%
+02:08:54 The testing accuracy after iteration 2200 is: 44.05%
+02:08:57 The testing accuracy after iteration 2300 is: 44.60%
+
+02:08:59 The train accuracy after iteration 2343 is: 56.03%
+
+02:09:01 The testing accuracy after iteration 2400 is: 43.80%
+02:09:03 The testing accuracy after iteration 2500 is: 46.58%
+02:09:06 The testing accuracy after iteration 2600 is: 45.70%
+02:09:09 The testing accuracy after iteration 2700 is: 45.63%
+02:09:12 The testing accuracy after iteration 2800 is: 46.58%
+02:09:14 The testing accuracy after iteration 2900 is: 45.97%
+02:09:17 The testing accuracy after iteration 3000 is: 46.44%
+02:09:20 The testing accuracy after iteration 3100 is: 47.31%
+
+02:09:21 The train accuracy after iteration 3124 is: 58.20%
+
+02:09:24 The testing accuracy after iteration 3200 is: 47.34%
+02:09:27 The testing accuracy after iteration 3300 is: 47.18%
+02:09:29 The testing accuracy after iteration 3400 is: 47.37%
+02:09:32 The testing accuracy after iteration 3500 is: 46.62%
+02:09:35 The testing accuracy after iteration 3600 is: 47.93%
+02:09:38 The testing accuracy after iteration 3700 is: 47.55%
+02:09:40 The testing accuracy after iteration 3800 is: 45.48%
+02:09:43 The testing accuracy after iteration 3900 is: 47.46%
+
+02:09:44 The train accuracy after iteration 3905 is: 59.67%
+
+02:09:47 The testing accuracy after iteration 4000 is: 47.71%
+02:09:50 The testing accuracy after iteration 4100 is: 48.33%
+02:09:52 The testing accuracy after iteration 4200 is: 48.26%
+02:09:55 The testing accuracy after iteration 4300 is: 48.12%
+02:09:58 The testing accuracy after iteration 4400 is: 48.31%
+02:10:01 The testing accuracy after iteration 4500 is: 48.14%
+02:10:04 The testing accuracy after iteration 4600 is: 49.21%
+
+02:10:06 The train accuracy after iteration 4686 is: 60.78%
+
+02:10:07 The testing accuracy after iteration 4700 is: 48.84%
+02:10:10 The testing accuracy after iteration 4800 is: 48.83%
+02:10:13 The testing accuracy after iteration 4900 is: 48.44%
+02:10:16 The testing accuracy after iteration 5000 is: 48.53%
