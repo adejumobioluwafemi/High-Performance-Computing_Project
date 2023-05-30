@@ -25,7 +25,7 @@ Koffivi F. Gbagbe & Oluwafemi P. Adejumobi
 
 > Run_Output.png terminal sceenshot of the execution time of the two model
  (the first one is the cuda version and the second one is the pytorch version)
-
+![Alt text](https://github.com/YodaX369/HPC_Project_2023_Skt/blob/main/Run_Output.png?raw=true)
 
 
 
