@@ -28,5 +28,9 @@ Koffivi F. Gbagbe & Oluwafemi P. Adejumobi
 ![Alt text](https://github.com/YodaX369/HPC_Project_2023_Skt/blob/main/Run_Output.png?raw=true)
 
 
+### To Do:
+
+Add comparison plot for test and train accuracy of Cuda and Pytorch using: statistics_test.csv, statistics_train.csv and pytorch_output.txt
+
 
 
