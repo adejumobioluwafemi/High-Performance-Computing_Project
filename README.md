@@ -1,6 +1,5 @@
 ## HPC_Project_2023_Skt 
-
-#### CUDA Accelerated Training of Multilayer Perceptron
+CUDA Accelerated Training of Multilayer Perceptron
 
 ### Authors:
 
