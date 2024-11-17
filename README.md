@@ -1,6 +1,9 @@
 ## HPC_Project_2023_Skt 
 CUDA Accelerated Training of Multilayer Perceptron
 
+## Short Description
+We developed CUDA kernels for matrix multiplication, matvec multiplication, ReLU, softmax operations, foreward/backward propagation, dense layer and Training loop. The aim was to accelerate computations, facilitating the efficient training of a Multilayer Perceptron comprising five linear layers on the CIFAR-10 dataset.
+
 ### Authors:
 
 Koffivi F. Gbagbe & Oluwafemi P. Adejumobi
